@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <div id="main">// Do not alter the main div</div>
-      <button onClick={this.renderParagraph}></button>
+      <button onClick={this.renderParagraph} id="click"></button>
       {this.para}
     </>
   );
