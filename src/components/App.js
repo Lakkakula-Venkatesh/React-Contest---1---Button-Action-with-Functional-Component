@@ -7,16 +7,16 @@ function App() {
   const renderParagraph = function () {
     setPara(
       <p id="para">
-        Hello, I've learnt to use the full-stack evaluation tool. This makes me
-        so happy
+        (Hello, I've learnt to use the full-stack evaluation tool. This makes me
+        so happy)
       </p>
     );
   };
   return (
     <>
       <div id="main">// Do not alter the main div</div>
-      <button onClick={this.renderParagraph} id="click"></button>
-      {this.para}
+      <button onClick={renderParagraph} id="click"></button>
+      {para}
     </>
   );
 }
